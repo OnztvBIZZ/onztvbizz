@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/*body{
+    height: 100vh;
+    background: url("shutterstock_83549872.jpeg");
+    background-position: center;
+    background-size: cover;
+}*/
+
+.background-clip {
+    position: fixed; /* Fixed positioning so it remains in the background */
+    top: 0; /* Position from the top of the viewport */
+    left: 0; /* Position from the left of the viewport */
+    width: 100%; /* Take up the entire width of the viewport */
+    height: 100%; /* Take up the entire height of the viewport */
+    z-index: -1; /* Ensure it stays behind other content */
+    object-fit: cover; /* Make the video cover the entire container */
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    padding: 20px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.navbar .logo{
+    font-family: 'Workbench', sans-serif;
+    font-size: 4.1rem;
+    font-weight: 600;
+
+}
+
+.navbar .logo span{
+    color: #c06b3e;
+}
+
+.navbar .menu-links{
+    display: flex;
+    gap: 40px;
+
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover{
+    color: #c06b3e;
+
+}
